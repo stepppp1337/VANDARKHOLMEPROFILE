@@ -1,0 +1,45 @@
+body{
+    background-color: pink;
+}
+
+.textstyle{
+    color: rebeccapurple;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+}
+
+.image{
+    width: 300px;
+    border-radius: 20%;
+    margin-left: 50%;
+    margin-top: 40px;
+}
+
+.style > div{
+    margin:auto;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+table, th, td{
+    width: 50%;
+    height: 50px;
+    border-collapse: collapse;
+    border: 2mm ridge palevioletred;
+}
+
+input{
+    background-color: pink;
+    color: rebeccapurple;
+    border-color: palevioletred;
+}
+
+input:active{
+    background: rebeccapurple;
+}
+
+input:hover{
+    color: black;
+    cursor: pointer;
+}
